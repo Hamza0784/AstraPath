@@ -1,0 +1,81 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background: #f8f8f8;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+#map-info {
+  background: url('map-background.png') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #34a853;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#map-info h1 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#welcome {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#welcome h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+#welcome p {
+  color: #666;
+  font-size: 18px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  #map-info h1 {
+    font-size: 20px;
+  }
+
+  #welcome h2 {
+    font-size: 24px;
+  }
+}
